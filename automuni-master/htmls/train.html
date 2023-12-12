@@ -1,179 +1,231 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>培养案</title>
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link rel="stylesheet" type="text/css" href="../css/universal.css" />
-    <link
-      rel="shirtcut icon"
-      type="image/x-icon"
-      href="../images/htmlLogo.png"
-    />
-    <style>
-      .container {
-        max-width: 1300px;
-        margin: 0 auto;
-        padding: 15px;
-        padding-top: 55px;
-      }
-      header {
-        background-color: #007bff;
-        padding: 20px;
-        text-align: center;
-      }
-      header h1 {
-        margin: 0;
-        font-size: 36px;
-        color: #f1f1f1;
-      }
-      nav ul {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-      }
-      nav ul li {
-        display: inline;
-        margin-right: 10px;
-      }
-      nav ul li a {
-        text-decoration: none;
-        color: white;
-      }
-      section {
-        margin: 20px;
-        padding: 20px;
-        background-color: #f1f1f1;
-        border-radius: 5px;
-      }
-      section h2 {
-        color: #007bff;
-      }
-      section p {
-        margin-bottom: 10px;
-      }
-      section ol {
-        margin-left: 20px;
-      }
-      #NavTop:hover {
-        height: 251px;
-      }
-      .head {
-        margin-left: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <iframe
-      src="navBlack.html"
-      width="100%"
-      height="69px"
-      frameborder="0"
-      scrolling="no"
-      id="NavTop"
-      style="position: fixed; top: 0; z-index: 999"
-    ></iframe>
-    <div class="container">
-      <h1 class="head" id="Freshman">给大一新生的培训流程</h1>
-      <section id="pcb">
-        <h2>第一阶段：PCB绘制</h2>
-        <p>
-          国庆收假后将由学长给新生体验一个电路仿真游戏来初步了解电路是什么，接着进行原理图和PCB的绘制。
-        </p>
-        <p>
-          通过线下机房培训和课后网课提升，达到对器件有基本的认识，能绘制STM32核心板。
-        </p>
-        <p>
-          完成本阶段考核并上线的24名新生即可分配通信基地座位，平常来基地进行自学。
-        </p>
-      </section>
-
-      <section id="c-language">
-        <h2>第二阶段：C语言基础</h2>
-        <p>
-          C语言要求新生来基地上网课学习，不懂的问题可以找学长解决，最后进行试卷考核。
-        </p>
-        <p>
-          无特殊情况的同学每天晚上都来基地学习，一周内应有六天是打卡了的，否则强制该生退出基地。
-        </p>
-      </section>
-
-      <section id="end-of-first-semester">
-        <h2>大一第一学期末考核</h2>
-        <p>有两个方向：</p>
-        <ol>
-          <li>完成蓝桥杯单片机PCB的绘制、打样与焊接；</li>
-          <li>参与车王争霸赛并获得优胜奖及以上。</li>
-        </ol>
-        <p>
-          未完成的同学要分析错误并解释原因，由学长们进行投票抉择，大于二分之一才得留下，否则强制该生退出基地。
-        </p>
-      </section>
-
-      <section id="blue-bridge-cup">
-        <h2>第三阶段：参加蓝桥杯单片机组（明年1-4月）</h2>
-        <p>
-          学习蓝桥杯开发板基本模块使用，包括LED、数码管、矩阵键盘、蜂鸣器、AD/DA等，掌握定时器、中断和硬件外设的用法。
-        </p>
-        <p>
-          之后参加四月的蓝桥杯单片机组竞赛，获奖同学应考虑参与智能车竞赛，未获奖的同学应反思并继续努力，在信息杯中用所学知识获得优胜奖及以上，否则继续投票决定是否留下。
-        </p>
-      </section>
-
-      <section id="top-competitions">
-        <h2>第四阶段：面向一流竞赛（明年4-8月）</h2>
-        <p>
-          统一参加学院组织的信息杯，得到资格后即可参与电赛，有能力的同学最好再参加智能车竞赛，获奖的同学应考虑参加工训赛。
-        </p>
-      </section>
-
-      <h1 class="head" id="Final">大一到大三期末考核</h1>
-      <section>
-        <h2>大一上学期考核任务</h2>
-        <p>任务一：使用立创EDA完成蓝桥杯精简板的绘制、打样、焊接</p>
-      </section>
-      <section>
-        <h2>大一下学期考核任务</h2>
-        <p>
-          任务一：完成蓝桥杯开发板基本模块使用，LED、数码管、矩阵键盘、蜂鸣器、AD/DA等
-        </p>
-      </section>
-      <section>
-        <h2>大二上学期考核任务</h2>
-        <p>任务一：完成两轮平衡车制作，学习PID控制算法</p>
-        <p>任务二：在平衡车上增加倒立摆，学些LQR算法</p>
-        <p>任务三：完成四轮小车，麦克纳姆轮，实现走矩形、三角形轨迹</p>
-        <p>任务四：在四轮小车上增加机械臂，能实现物体的搬运</p>
-      </section>
-      <section>
-        <h2>大二下学期考核任务</h2>
-        <p>
-          任务一：完成电磁巡线小车，采用标准智能车跑道，考核要求参考当年的智能车规则。（速度不低于1.5m/s）
-        </p>
-        <p>
-          任务二：学习OpenMV或K210视觉模块，控制二维云台，云台上安装激光笔，控制激光画出圆形、矩形、三角形、追踪红色或绿色物体
-        </p>
-        <p>
-          任务三：完成摄像头小车设计，采用标准智能车跑道，考核要求参考当年的智能车规则。（速度不低于1.5m/s）
-        </p>
-      </section>
-      <section>
-        <h2>大三上学期考核任务</h2>
-        <p>
-          任务一：学习树莓派+OpenCV，实现人脸识别、手势识别、目标追踪、戴口罩检测等
-        </p>
-        <p>任务二：在小车增加ROS和5G图传，实现自动导航和图传</p>
-        <p>
-          任务三：自制无刷电机驱动和控制板，学习FOC控制算法，不得全套使用开源资料，不了解原理
-        </p>
-      </section>
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <title>中心资源</title>
+  <link
+          rel="shirtcut icon"
+          type="image/x-icon"
+          href="../images/htmlLogo.png"
+  />
+  <link rel="stylesheet" type="text/css" href="../css/zxzy.css" />
+</head>
+<body>
+<iframe
+        src="navBlack.html"
+        width="100%"
+        height="69px"
+        frameborder="0"
+        scrolling="no"
+        id="NavTop"
+        style="position: fixed; top: 0; z-index: 999"
+></iframe>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="display-4">中心资源</h1>
+      <p class="lead" style="font-size: 22px;">
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp为你的进步提供坚实的支撑资源是成长的基础
+      </p>
     </div>
-    <iframe
-      src="footer.html"
-      width="100%"
-      height="130px"
-      frameborder="0"
-      scrolling="no"
-    ></iframe>
-  </body>
+  </div>
+
+  <div class="row">
+
+    <div class="x01">
+      <h1 class="display-4">中心资源</h1>
+      <p class="lead" style="font-size: 22px;">
+        为你的进步提供坚实的支撑资源是成长的基础
+      </p>
+    </div>
+
+    <div class="col-lg-1">
+      <div class="card">
+        <div class="box01">
+        <img
+                src="../images/2023smcasw.jpg"
+                class="card-img-top"
+                alt="Company Logo"
+        />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">智能车室外组的B站宣传视频上线</h5>
+          <p class="card-text">第十八届智能车室外赛临近，祝我们好运</p>
+          <a href="../news/2023smcasw.html" class="card-link" target="_parent">查看详情</a>
+          <p class="card-date">2023.11.28</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2">
+      <div class="card">
+        <div class="box01">
+        <img
+                src="../images/Index3.jpg"
+                class="card-img-top"
+                alt="Company Logo"
+        />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">工创赛桂信科两队成功晋级国赛</h5>
+          <p class="card-text">通信基地的"什么都队"和"工训急急国王"成功晋级</p>
+          <a href="../news/2023gcxl.html" class="card-link" target="_parent">查看详情</a>
+          <p class="card-date">2023.11.2</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="box01">
+        <img
+                src="../images/SmartCarOutdoor.jpg"
+                class="card-img-top"
+                alt="Company Logo"
+        />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">成功报名智能汽车竞赛室外组</h5>
+          <p class="card-text">室外智能驾驶挑全国大学生智能汽车竞赛战组</p>
+          <a href="../news/2023smex.html" class="card-link" target="_parent">查看详情</a>
+          <p class="card-date">2023.10.9</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="x01">
+      <h1 class="display-4">中心资源</h1>
+      <p class="lead" style="font-size: 22px;">
+        为你的进步提供坚实的支撑资源是成长的基础
+      </p>
+    </div>
+
+    <div class="col-lg-1">
+      <div class="card">
+        <div class="box01">
+        <img
+                src="../images/Elect.jpg"
+                class="card-img-top"
+                alt="Company Logo"
+        />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">荣获全国大学生电赛国家级二等奖</h5>
+          <p class="card-text">获奖人：梁杰锋、张业浩、张嘉铭</p>
+          <a href="../news/2023elect.html" class="card-link" target="_parent">查看详情</a>
+          <p class="card-date">2023.8.27</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2">
+      <div class="card">
+        <div class="box01">
+        <img
+                src="../images/SmartCar18.jpg"
+                class="card-img-top"
+                alt="Company Logo"
+        />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">第十八届智能车竞赛华南赛区落幕</h5>
+          <p class="card-text">通信基地两队分别获得区二和区三奖项</p>
+          <a href="../news/2023smca.html" class="card-link" target="_parent">查看详情</a>
+          <p class="card-date">2023.7.20</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="box01">
+        <img
+                src="../images/Index4.jpg"
+                class="card-img-top"
+                alt="Company Logo"
+        />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">荣获智能车竞赛国家级一等奖</h5>
+          <p class="card-text">获奖人：郑帅、梁梅、梁杰锋</p>
+          <a href="../news/2022smca.html" class="card-link" target="_parent">查看详情</a>
+          <p class="card-date">2022.8.25</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="x01">
+      <h1 class="display-4">中心资源</h1>
+      <p class="lead" style="font-size: 22px;">
+        为你的进步提供坚实的支撑资源是成长的基础
+      </p>
+    </div>
+
+    <div class="col-lg-1">
+      <div class="card">
+        <div class="box01">
+        <img
+                src="../images/Elect2021.jpg"
+                class="card-img-top"
+                alt="Company Logo"
+        />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">荣获全国大学生电赛国家级二等奖</h5>
+          <p class="card-text">获奖人：伍冠宇、梁梅、雷寰宇</p>
+          <a href="#" class="card-link" target="_parent">查看详情</a>
+          <p class="card-date">2021.12</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-2">
+      <div class="card">
+        <div class="box01">
+        <img
+                src="../images/Elect2021.jpg"
+                class="card-img-top"
+                alt="Company Logo"
+        />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">荣获全国大学生电赛国家级二等奖</h5>
+          <p class="card-text">获奖人：伍冠宇、梁梅、雷寰宇</p>
+          <a href="#" class="card-link" target="_parent">查看详情</a>
+          <p class="card-date">2021.12</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3">
+      <div class="card">
+        <div class="box01">
+        <img
+                src="../images/Elect2021.jpg"
+                class="card-img-top"
+                alt="Company Logo"
+        />
+        </div>
+        <div class="card-body">
+          <h5 class="card-title">全国大学生电赛国家级二等奖</h5>
+          <p class="card-text">获奖人：伍冠宇、梁梅、雷寰宇</p>
+          <a href="#" class="card-link" target="_parent">查看详情</a>
+          <p class="card-date">2021.12</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<iframe
+        src="footer.html"
+        width="100%"
+        height="130px"
+        frameborder="0"
+        scrolling="no"
+></iframe>
+
+</body>
 </html>
