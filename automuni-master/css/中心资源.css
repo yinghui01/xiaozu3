@@ -107,4 +107,21 @@ a:hover {
   width: 10000px;
   height: 100px;
 }
+.box02 {
+  width: 160px;
+  position: relative;
+}
 
+h1::before {
+  content: '';
+  height: 4px;
+  background: #007bff;
+  display: inline-block;
+  position: absolute;
+  bottom: -6px;
+  width: 0;
+  transition: width 0.36s;
+}
+h1:hover::before {
+  width: 100%;
+}
