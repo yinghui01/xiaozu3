@@ -4,6 +4,16 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+a:link {
+  text-decoration: none;
+  color:black;
+}
+a:visited{
+  color:black;
+}
+a:hover {
+  color: #007bff;
+}
 
 @keyframes fadeInAnimation {
   0% {
@@ -43,7 +53,7 @@ body {
   animation-fill-mode: forwards;
 }
 .card:hover {
-  border-color: #ff0000;
+  border-color: #007bff;
 }
 .card-img-top {
   border-radius: 15px;
