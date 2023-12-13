@@ -4,6 +4,15 @@ body {
   width: 100%;
   overflow-x: hidden;
 }
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .container {
   max-width: 1300px;
   margin: 0 auto;
@@ -13,6 +22,9 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
+  animation: fadeInAnimation ease 1.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
 }
 .col {
   flex: 1;
@@ -21,9 +33,16 @@ body {
 }
 .card {
   border-radius: 15px;
-  border: 1px solid gray;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   margin: 24px;
+  border: 2px solid black;
+  transition: border-color 0.6s;
+  animation: fadeInAnimation ease 2.0s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.card:hover {
+  border-color: red;
 }
 .card-img-top {
   border-radius: 15px;
@@ -34,13 +53,19 @@ body {
 }
 .box01:hover {
   box-shadow: 0 8px 8px 0 grey;
+  border-radius: 15px;
+  height: 215px;
   transform: translate(0, -10px);
-  transform: scale(1.2)
+  transition: all 0.4s;
+  transform: scale(1.1)
+
 }
 
 .box01-bd {
-  margin: 20px 0 0 300px;
+  margin: 20px 0 0 220px;
   width: 700px;
+  height: 220px;
+  border-radius: 15px;
 }
 .card-body {
   padding: 15px;
