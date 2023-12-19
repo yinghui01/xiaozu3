@@ -32,6 +32,13 @@ a:hover {
 .row {
   display: flex;
   flex-wrap: wrap;
+  animation: fadeInAnimation ease 1s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+.row01 {
+  display: flex;
+  flex-wrap: wrap;
   animation: fadeInAnimation ease 1.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
